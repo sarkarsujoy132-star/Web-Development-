@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+
+  <style>
+    form {
+      text-decoration-color: rgb(255, 255, 255);
+      background-color: rgb(160, 223, 237);
+      padding: 30px;
+      border-radius: 15px;
+    }
+  </style>
+
+  <body>
+    <form
+      style="width: 400px; margin: auto"
+      align="center"
+      action="https://www.google.com/search"
+      method="GET"
+    >
+      <h1
+        text-align="center"
+        ;
+        text-size="30px"
+        ;
+        text-color="white"
+        ;
+        font-size="70px"
+        ;
+      >
+        <b font-bold font-border="2px solid black">Login</b>
+      </h1>
+      <hr color="black" />
+      <input type="text" name="username" placeholder="Enter your full name" />
+      <br />
+      <br />
+      <input type="email" placeholder="Enter your email" />
+      <br />
+      <br />
+      <input type="password" placeholder="Enter password" />
+      <br />
+      <br />
+      <input type="number" placeholder="Enter your age" />
+
+      <!-- ADVANCE FORM ELEMENTS -->
+      <br />
+      <br />
+      <label> <input type="radio" name="gender" />Male </label>
+      <label> <input type="radio" name="gender" />Female </label>
+      <br />
+      <br />
+      <label> <input type="checkbox" />HTML </label>
+      <label> <input type="checkbox" />CSS </label>
+      <label> <input type="checkbox" />JavaScript </label>
+      <br />
+      <br />
+      <select>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+      </select>
+      <br />
+      <br />
+      <select>
+        <option value="Select State">Select State</option>
+        <option>Andhra Pradesh</option>
+        <option>Arunachal Pradesh</option>
+        <option>Assam</option>
+        <option>Bihar</option>
+        <option>Chhattisgarh</option>
+        <option>Goa</option>
+        <option>Gujarat</option>
+        <option>Haryana</option>
+        <option>Himachal Pradesh</option>
+        <option>Jharkhand</option>
+        <option>Karnataka</option>
+        <option>Kerala</option>
+        <option>Madhya Pradesh</option>
+        <option>Maharashtra</option>
+        <option>Manipur</option>
+        <option>Meghalaya</option>
+        <option>Mizoram</option>
+        <option>Nagaland</option>
+        <option>Odisha</option>
+        <option>Punjab</option>
+        <option>Rajasthan</option>
+        <option>Sikkim</option>
+        <option>Tamil Nadu</option>
+        <option>Telangana</option>
+        <option>Tripura</option>
+        <option>Uttar Pradesh</option>
+        <option>Uttarakhand</option>
+        <option>West Bengal</option>
+      </select>
+      <br />
+      <br />
+      <textarea
+        name="feedback"
+        placeholder="Enter your feedback"
+        rows="2"
+        cols="30"
+      ></textarea>
+      <br />
+      <br />
+      <input type="date" />
+      <br />
+      <br />
+      <input type="file" />
+      <br />
+      <br />
+      <input type="range" min="0" max="100" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
